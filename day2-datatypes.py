@@ -13,3 +13,26 @@ print(type(lenth_name))
 type(123.42)
 
 int(123.63)
+
+
+print(26/3)
+print(int(26/3))
+print(26//3)
+
+
+round(26/3,3)
+
+
+# using counter variables
+score = 0
+score = score + 1
+
+# above line is same as below
+
+score += 1
+print('score: ', score)
+
+
+name = input("\n\nEnter your name: ")
+print(f'\nYour name has : {len(name)} letters')
+
