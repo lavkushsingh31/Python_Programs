@@ -17,7 +17,7 @@ print('Testing.\nThis should be line\nThis is line 3\n\n')
 print('Lets '+ 'concatenate!\n\n')
 
 user_input = input("What is your name? : ")
-print('Hello,'+user_input+'!\n\n')
+print('Hello, '+user_input+'!\n\n')
 
 print(len(input("What is your name? ")))
 
