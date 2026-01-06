@@ -11,5 +11,8 @@ if len(string)%2 != 0:
     mid = int((len(string)/2)-0.5)
     #print(mid)
     palindrome = string[:mid+1] + string[mid-1::-1]
+else:
+    mid = int((len(string)/2)-1)
+    palindrome = string[:mid+1]+ string[mid::-1]
     
 print(f"Closest Palindrome: {palindrome}")
