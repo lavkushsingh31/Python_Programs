@@ -8,7 +8,7 @@ Title: Take a list of strings and sort them by the number of vowels in each stri
 input_list = ['This', 'is', 'test', 'aeiou','string']
 
 def count_vowels(string):
-    return sum(1 for char in string.lower() if char in 'aeiou')
+    return sum(1 for char in string if char in 'aeiouAEIOU')
 
 sorted_list = sorted(input_list, key = count_vowels)
 print(sorted_list)
